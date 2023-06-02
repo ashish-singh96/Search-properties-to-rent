@@ -4,6 +4,8 @@ import Home from './HomeData.json'
 import Navbar from './component/Navbar/Navbar'
 import Header from './component/Navbar/Record Keeping/Header';
 import Text from './component/Navbar/Record Keeping/Text';
+import Data from './component/Product API/Data';
+import UsingFetch from './component/Product API/UsingFetch';
 
 function App() {
   return (
@@ -23,8 +25,11 @@ function App() {
       }
       </div> */}
 
-      <Header />
-      <Text />
+      {/* <Header />
+      <Text /> */}
+
+      {/* <Data/> */}
+      <UsingFetch/>
 
     </div>
   );
