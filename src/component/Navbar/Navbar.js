@@ -1,15 +1,16 @@
 import React from 'react'
 import './Navbar.css';
+import { Link } from 'react-router-dom';
 const Navbar = () => {
     return (
         <div>
             <nav>
                 <ul>
-                    <li><a href="#">Rent</a></li>
-                    <li><a href="#">Buy</a></li>
-                    <li><a href="#">Sell</a></li>
-                    <li><a href="#">Manage Property</a></li>
-                    <li><a href="#">Resources</a></li>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/buy">Buy</Link></li>
+                    <li><Link to="/sell">Sell</Link></li>
+                    <li><Link to="/manageProperty">Manage Property</Link></li>
+                    <li><Link to="/resources">Resources</Link></li>
                 </ul>
                 
                 <form className="form-inline">
